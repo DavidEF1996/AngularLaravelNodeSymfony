@@ -43,3 +43,5 @@ Route::get('/proband1/{nombre?}',function($nombre=null){
 //Probando con controlador y vista
 //La ruta puede ser cualquiera que queramos pero el controlador si debe estar ligado correctamente
 Route::get('/ejemplo1/animal', 'PruebasController@index');
+
+Route::get('/base', 'PruebasController@probarOrm');
